@@ -1,0 +1,41 @@
+.cont {
+  margin: 10px auto;
+}
+.listCont {
+  height: 500px;
+  background: white;
+  border-radius: 5px;
+  overflow: auto;
+}
+@media (min-width: 576px) {
+  .cont {
+    width:60vw;
+  }
+}
+@media (min-width: 900px) {
+  .cont {
+    width:35vw;
+  }
+}
+ul {
+  list-style-type: none;
+}
+.text-custom {
+  color: grey;
+  font-size: 150%;
+  vertical-align: middle;
+}
+.text-custom-off {
+  color: green;
+  font-size: 150%;
+  vertical-align: middle;
+}
+.text-custom:hover {
+  color: rgb(68, 196, 68);
+}
+li {
+  color: #272727;
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: bold;
+}
